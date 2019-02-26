@@ -116,7 +116,7 @@ export class AppComponent implements AfterViewInit {
 
       var rgb = red.toString() + grn.toString() + blu.toString();
 
-      return '#' + (rgb === 'ffffff' ? 'aaaaaa' : rgb);
+      return '#' + rgb;
 
     }
   }
